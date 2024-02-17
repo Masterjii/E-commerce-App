@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>New Product form</h1>
+    
+    <form action="/products" method="POST"> 
+        <div>
+            <label for="naam">Name: </label>
+            <input type="text" name="name" id="naam">
+        </div>
+
+        <div>
+            <label for="img">img: </label>
+            <input type="text" name="img" id="img">
+        </div>
+
+        <div>
+            <label for="price">Price: </label>
+            <input type="text" name="price" id="price">
+        </div>
+
+        <div>
+            <label for="desc">Description: </label>
+            <textarea name="desc" id="desc" cols="30" rows="5"></textarea>
+        </div>
+
+        <button type="submit">Add Product</button>
+
+    </form>
+
+</body>
+</html>
